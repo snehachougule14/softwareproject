@@ -8,16 +8,16 @@
   
   
  let fName; //declaration of variable //undefined 
-  fName = 'pooja'; //defination (syntax variableName = value/data) //difference = == === 
+  fName = 'sneha'; //defination (syntax variableName = value/data) //difference = == === 
   
-  let myFirstName = 'poonam'; //declr + def 
+  let myFirstName = 'sneha'; //declr + def 
   
-  var mySName='patil'; 
+  var mySName='chougule'; 
   
   var myName; 
   myName = 'om'; 
   myName = 'shweta'; 
-  
+  console.log('myName',myName);
   const cityName ='pune'; //const keyword intialization of value is must 
  //  cityName = 'mumbai' 
  console.log('cityName',cityName);
