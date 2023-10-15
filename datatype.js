@@ -55,7 +55,7 @@ console.log(myName);
 console.log(typeof(myName));  //null/array value typeof will return >> object 
 
 let a = 999999999999999;
-console.log(a);
+console.log(a);0
 
 // let b = 5.3646666  >> 5.36
 
