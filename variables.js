@@ -17,7 +17,7 @@
   var myName; 
   myName = 'om'; 
   myName = 'shweta'; 
-  console.log('myName',myName);
+  console.log('myname is',myName);
   const cityName ='pune'; //const keyword intialization of value is must 
  //  cityName = 'mumbai' 
  console.log('cityName',cityName);
