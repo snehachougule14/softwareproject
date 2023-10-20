@@ -4,7 +4,8 @@ function addNumber(){
     for(let i = 1 ; i <=10; i++){
          res = number * i;
        console.log(res);  
-       document.write(res, "\n")  ;
+       document.write( '<br>')  ;
+       document.write( res )  ;
     }
     //document.getElementById("table").innerHTML = number + '<br>'
    }
