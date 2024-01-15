@@ -19,5 +19,23 @@ export class DatabindingComponent {
 
 
 data : any ='we are learning String Interpolation';
+amount : number = 6000000;
+schoolName! : string;
+isMatch=true;
+name ="sneha";
+
+x=7;
+
+
+// = : assignment operator : to assign value to variable/ property
+ // == : it will compair only value
+   // === : it will compair value as well as datatype
+
+test(){
+  return 10*2;
+  
+
+}
+
 
 }

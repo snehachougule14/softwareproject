@@ -1,2 +1,30 @@
 
 <p> {{ data }} </p>
+------------
+ <div> {{ amount }}</div>
+
+ <!-- we can pass function in interpolation-->
+ <div> {{ test() }}</div>
+ ---------
+
+ <!--assignment not possible in interpolation
+ <div>{{schoolName ="xzy" }}</div>-->
+
+ <!--  we can use equality operater in interpolation-->
+<!--<div> {{ amount == 700000}}</div> overlapping of no. and string datatypes error-->
+
+<div>{{amount === 600000}}</div>
+---------
+
+<div> {{ 50*2 }}</div>
+-------
+<div> {{amount*2}} </div>
+--------
+<div> {{!isMatch}}</div>
+
+<!--<div>  {{ x--}} </div> increment ,decrement not allowd-->
+
+Enter Name : <input type="text" [value]="name">
+
+
+
