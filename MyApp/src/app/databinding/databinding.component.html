@@ -22,9 +22,15 @@
 --------
 <div> {{!isMatch}}</div>
 
+
 <!--<div>  {{ x--}} </div> increment ,decrement not allowd-->
 
 Enter Name : <input type="text" [value]="name">
-
-
+<br>
+<button (click)=" clickevent()"> click event</button>
+<br>
+{{clickEventData}}
+<br>
+Enter city: <input type="text" [(ngModel)]="city">
+Entered city ={{city}}
 

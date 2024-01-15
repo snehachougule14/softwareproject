@@ -25,6 +25,8 @@ isMatch=true;
 name ="sneha";
 
 x=7;
+clickEventData:any;
+city:any="sangli";
 
 
 // = : assignment operator : to assign value to variable/ property
@@ -33,9 +35,11 @@ x=7;
 
 test(){
   return 10*2;
-  
+  }
 
-}
+  clickevent(){
+         this.clickEventData=" 678976"
+  }
 
 
 }
