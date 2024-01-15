@@ -1,0 +1,20 @@
+
+.div-container{
+    background-color: aqua;
+    height: 800px;
+
+}
+.btn{
+    background-color: lightsalmon;
+    padding: 8px.8px;
+    margin: 6px;
+    border: none;
+    border-radius: 20px;
+
+}
+
+.main{
+    position: relative;
+    top: 20px;
+    left: 15px;
+}
