@@ -3,3 +3,19 @@
 <div *ngIf="isShow">
     {{ city}}
 </div>
+<br>
+<div>
+    {{cars}}
+</div>
+<br>
+<div *ngFor="let carNames of cars">
+    {{carNames}}
+</div>
+<br>
+<div class="div-container" *ngIf="showDiv">   
+
+</div>
+<br>
+<div>
+    <button (click)="toggle()"> Toggle</button>
+</div>
