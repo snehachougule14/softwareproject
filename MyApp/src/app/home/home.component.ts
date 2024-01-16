@@ -33,5 +33,7 @@ export class HomeComponent { // component class : properties ,constructor ,lifec
    test(){
     console.log("testing..");
    }
-
+   directives(){
+    this.router.navigateByUrl('directives');
+   }  
 }
